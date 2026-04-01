@@ -44,24 +44,30 @@ retailsense/
 
 ## ⚙️ How to Run
 
+*(Depending on your operating system and environment, you may need to substitute `python` with `py` on Windows, or `python3` on Mac/Linux. Similarly, `pip` might act exclusively as `py -m pip` or `python3 -m pip` if your PATH isn't configured).*
+
 1. **Install dependencies:**
     ```bash
     pip install pandas numpy matplotlib seaborn plotly streamlit requests pyarrow
+    # Alternative: py -m pip install pandas ... OR python3 -m pip install pandas ...
     ```
 
 2. **Generate initial datasets (Run Once):**
    ```bash
    python run_once_generate_data.py
+   # Alternative: py run_once_generate_data.py OR python3 run_once_generate_data.py
    ```
 
 3. **Execute the core Analytics Pipeline** (Creates DB, fixes types, and saves visualizations):
     ```bash
     python analysis.py
+    # Alternative: py analysis.py OR python3 analysis.py
     ```
 
 4. **Boot the Streamlit Dashboard UI:**
     ```bash
     streamlit run app.py
+    # Alternative: py -m streamlit run app.py OR python3 -m streamlit run app.py
     ```
 
 ## 🔐 Ethics & Privacy Note
