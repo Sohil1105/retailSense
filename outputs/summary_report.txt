@@ -1,0 +1,3 @@
+Total Customers: 490
+Total Orders: 1500
+Total Revenue: 8899625.8

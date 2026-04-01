@@ -1,0 +1,7 @@
+{
+  "project_name": "RetailSense",
+  "version": "1.0",
+  "analysis_year": 2024,
+  "min_order_value": 500,
+  "tax_rate": 18
+}
